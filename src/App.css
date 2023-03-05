@@ -1,0 +1,177 @@
+.d-block {
+  display: block;
+}
+.container {
+  height: 100vh;
+}
+.container-app {
+  width: 90%;
+}
+.new-task-main,
+.todo-list-main,
+.container-app,
+.container {
+  display: flex;
+  justify-content: center;
+}
+.new-task-main,
+.todo-list-main {
+  width: 90%;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+
+.h-100 {
+  height: 100vh;
+}
+.d-none {
+  display: none;
+}
+.d-flex {
+  display: flex;
+}
+.new-task-main {
+  width: 40%;
+}
+.todo-list-main {
+  width: 60%;
+}
+.show-detail {
+  height: 0;
+  visibility: hidden;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-height: 600px;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+}
+.w-100 {
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0px;
+}
+.todo-date {
+  justify-content: space-between;
+}
+.btn-save {
+  background-color: #4b91af;
+  padding: 8px 18px;
+  border: none !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: none !important;
+  margin: 24px 1px 0px 0px;
+  width: 100%;
+  transition: all 500ms linear;
+  overflow: hidden !important;
+  color: white;
+  cursor: pointer;
+}
+.item-main {
+  border: 1px solid #ccc;
+  margin-top: 16px;
+}
+.item-todo-list {
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 12px;
+}
+.btn-detail {
+  background-color: #4b91af;
+  padding: 6px 12px;
+  border: none !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: none !important;
+  width: 80px;
+  transition: all 500ms linear;
+  overflow: hidden !important;
+  color: white;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.btn-remove {
+  background-color: #c94d4d;
+  padding: 6px 12px;
+  border: none !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: none !important;
+  width: 80px;
+  transition: all 500ms linear;
+  overflow: hidden !important;
+  color: white;
+  cursor: pointer;
+}
+.input {
+  outline: none;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.new-task-main > form {
+  padding-top: 20px;
+}
+form {
+  width: 90%;
+}
+.title-task {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.box-update {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.bulk-action {
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 10px;
+  background: #ccc;
+  padding: 6px 12px;
+  box-sizing: border-box;
+}
+.update-todo-list {
+  position: relative;
+  width: 90%;
+}
+.scroll {
+  max-height: 70vh;
+  overflow: auto;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 12px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ccc;
+}
+.text-danger {
+  color: red
+}
+.mg-12 {
+  margin-bottom: 12px;
+}
